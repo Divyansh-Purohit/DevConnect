@@ -20,3 +20,4 @@ const connectDB = async () => {
 };
 
 module.exports = connectDB;
+// // "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"

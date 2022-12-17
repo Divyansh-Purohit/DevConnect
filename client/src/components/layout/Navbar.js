@@ -49,6 +49,16 @@ const Navbar = ({ auth: { isAuthenticated }, logout }) => {
           <i className="fas fa-code" /> DevConnector
         </Link>
       </h1>
+      <p
+        style={{
+          textAlign: 'left',
+          display: 'inline-block',
+          width: 200,
+          fontSize: 14
+        }}
+      >
+        By Divyansh Purohit
+      </p>
       <Fragment>{isAuthenticated ? authLinks : guestLinks}</Fragment>
     </nav>
   );
